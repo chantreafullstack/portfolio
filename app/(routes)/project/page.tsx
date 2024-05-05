@@ -8,33 +8,33 @@ const ProjectPage = () => {
         <h1 className="font-bold text-3xl text-center py-10">
           <span className="text-primary">My</span> Projects
         </h1>
-        <div className="block sm:flex sm:justify-center gap-4 sm:gap-8 py-6">
-          <div className="w-full sm:w-[320px] h-[360px] mb-4 sm:mb-0 border-2 border-[#212537] bg-[#212537] shadow-custom transition duration-300 hover:border-[hsl(var(--primary))] rounded-lg">
-            <div className="flex flex-col h-[360px] justify-center items-center">
+        <div className="grid grid-cols-1 place-items-center sm:place-items-start sm:grid-cols-2 xl:grid-cols-3 gap-6 py-6 px-2 md:px-8">
+          <div className="w-[300px] h-[300px] sm:w-[320px] sm:h-[360px] border-2 border-[#212537] bg-[#212537] shadow-custom transition duration-300 hover:border-[hsl(var(--primary))] rounded-lg">
+            <div className="flex flex-col h-[300px] sm:h-[360px] justify-center items-center">
               <div className="flex justify-center items-center mb-8">
-                <div className="w-40 h-40 flex justify-center items-center rounded-full border-8 border-[hsl(var(--primary))]">
+                <div className="w-32 h-32 sm:w-40 sm:h-40 flex justify-center items-center rounded-full border-8 border-[hsl(var(--primary))]">
                   <img
-                    className="w-full p-11 object-cover"
+                    className="w-full p-8 sm:p-11 object-cover"
                     src="./surcode.png"
                     alt=""
                   />
                 </div>
               </div>
-              <h1 className="font-bold text-3xl text-center">Sur Code</h1>
+              <h1 className="font-bold text-2xl text-center">Sur Code</h1>
             </div>
           </div>
-          <div className="w-full sm:w-[320px] h-[360px] border-2 border-[#212537] bg-[#212537] shadow-custom transition duration-300 hover:border-[hsl(var(--primary))] rounded-lg">
-            <div className="flex flex-col h-[360px] justify-center items-center">
+          <div className="w-[300px] h-[300px] sm:w-[320px] sm:h-[360px] border-2 border-[#212537] bg-[#212537] shadow-custom transition duration-300 hover:border-[hsl(var(--primary))] rounded-lg">
+            <div className="flex flex-col h-[300px] sm:h-[360px] justify-center items-center">
               <div className="flex justify-center items-center mb-8">
-                <div className="w-40 h-40 flex justify-center items-center rounded-full border-8 border-[hsl(var(--primary))]">
+                <div className="w-32 h-32 sm:w-40 sm:h-40 flex justify-center items-center rounded-full border-8 border-[hsl(var(--primary))]">
                   <img
-                    className="w-full p-4 object-cover"
+                    className="w-full p-2 sm:p-4 object-cover"
                     src="./jobroom.png"
                     alt=""
                   />
                 </div>
               </div>
-              <h1 className="font-bold text-3xl text-center">Job Room</h1>
+              <h1 className="font-bold text-2xl text-center">Job Room</h1>
             </div>
           </div>
         </div>

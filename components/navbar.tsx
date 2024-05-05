@@ -17,7 +17,7 @@ const Navbar = () => {
           onClick={() => setOpen(true)}
           className="block xl:hidden lg:hidden md:hidden py-1 px-[6px] border border-neutral-500 rounded"
         >
-          <Bars3Icon className="w-6 h-6" />
+          <Bars3Icon className="w-7 h-7" />
         </button>
 
         {isOpen && (
