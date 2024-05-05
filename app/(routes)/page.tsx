@@ -17,7 +17,7 @@ export default function Home() {
                 <span className="text-primary">Full Stack Web Developer</span>.
               </h1>
               <p className="text-[20px] xl:text-[20px] lg:text-[32px] md:text-[28px] text-center xl:text-left mb-6 xl:mb-6 lg:mb-8 md:mb-6">
-                I've been working as a full-stack web developer for over 3 in
+                I have been working as a full-stack web developer for over 3 in
                 front-end technologies Angular and Next.js, and I also work with
                 back-end technologies like Spring Boot, Nest.js and databases
                 like PostgreSQL.
