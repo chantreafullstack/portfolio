@@ -1,6 +1,5 @@
 "use client";
 import SkillCard from "@/components/skill-card";
-import React from "react";
 
 const skills = [
   {

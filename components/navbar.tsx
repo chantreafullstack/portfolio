@@ -10,9 +10,12 @@ const Navbar = () => {
   return (
     <nav className="w-full z-50">
       <div className="w-full px-4 lg:px-0 xl:w-[1100px] lg:w-[900px] md:w-[740px] sm:w-[600px] h-20 mx-auto flex justify-between items-center">
-        <h1 className="text-2xl font-bold text-neutral-200 cursor-pointer">
-          Chantrea
-        </h1>
+        <Link href="/">
+          <h1 className="text-2xl font-bold text-neutral-200 cursor-pointer flex items-center gap-[6px]">
+            <img className="w-7 h-7 rotate-90" src="/logo.png" alt="chantrea" />
+            Chantrea
+          </h1>
+        </Link>
         <button
           onClick={() => setOpen(true)}
           className="block xl:hidden lg:hidden md:hidden py-1 px-[6px] border border-neutral-500 rounded"
@@ -32,9 +35,16 @@ const Navbar = () => {
           }`}
         >
           <nav className="w-full">
-            <h1 className="text-2xl font-bold text-neutral-200 border-b border-neutral-500 py-4 px-3 cursor-pointer">
-              Chantrea
-            </h1>
+            <Link href="/">
+              <h1 className="text-2xl font-bold text-neutral-200 border-b border-neutral-500 py-4 px-3 cursor-pointer flex items-center gap-[6px]">
+                <img
+                  className="w-7 h-7 rotate-90"
+                  src="/logo.png"
+                  alt="chantrea"
+                />
+                Chantrea
+              </h1>
+            </Link>
             <ul className="flex flex-col h-9 md:hidden text-base p-3 gap-2">
               <li>
                 <Link
